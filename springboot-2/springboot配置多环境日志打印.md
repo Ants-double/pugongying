@@ -470,6 +470,10 @@
            不能设置为INHERITED或者同义词NULL。默认是DEBUG
            可以包含零个或多个元素，标识这个appender将会添加到这个logger。
        -->
+       <logger name="com.apache.ibatis" level="TRACE"/>
+       <logger name="java.sql.Connection" level="DEBUG"/>
+       <logger name="java.sql.Statement" level="DEBUG"/>
+       <logger name="java.sql.PreparedStatement" level="DEBUG"/>
    
        <!-- 4.2 生产环境:输出到文档-->
        <root level="info">
