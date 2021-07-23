@@ -84,3 +84,4 @@
    ```
 
    **maxInactiveIntervalInSeconds: 设置 Session 失效时间，使用 Spring Session 之后，原 Spring Boot 配置文件 `application.yml` 中的 `server.session.timeout` 属性不再生效**
+
